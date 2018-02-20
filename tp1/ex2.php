@@ -5,13 +5,10 @@
 <title>Hello</title>
 </head>
 <body>
+	
+<h1>Récupération de paramètres en requête GET</h1>
 
 <?php
-/*
-if(isset($_GET["message"])){
-	echo $_GET["message"];
-}
-*/
 
 $args = count($_GET);
 if ($args==0){
@@ -48,7 +45,7 @@ else{
     <label for="color">Couleur : </label>
     <input type="color" value="" name="color" id="color">
     </div>
-    <textarea placeholder="Entrez votre message ici..."  rows="5" cols="50" name="message"></textarea>
+    <input type="text" placeholder="Entrez votre message ici..." name="message"></textarea>
 
     <input type="submit" value="Valider">
 </form>
