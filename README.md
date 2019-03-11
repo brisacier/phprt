@@ -1,3 +1,2 @@
 # phprt
-M2105 RT1A 
-demo repo
+RT1A M2105 - corrigés premiers exos
